@@ -2,13 +2,16 @@
     margin: 0 200px;
     align-items: center;
     display: flex;
+    margin-right: 120px;
+    
 }
 .header{
     background-color:  #e9d0d0;;
 }
 .img{
     width: 1440px;
-     height: 669px;  
+     height: 669px;
+       
 }
 .banner-title{
     font-weight: 700;
@@ -85,4 +88,74 @@
         font-size: 18px;
         line-height: 28px;
         color: #707070
+    }
+    .skills-container{
+        display: flex;
+        gap: 24px;
+        border-radius: 5px;
+        background-color: #fafafa;
+        margin-bottom: 200px;
+    }
+    .skill-img{
+        width: 58.13px;
+        height: 49.77px;
+    }
+    .skill-title{
+        font-weight: 600;
+         font-size: 24px;
+         margin-top: 30px;
+         margin-bottom: 20px;
+    }
+    .skill-description{
+        font-weight: 400;
+         `font-size: 16px;
+         color: #707070;
+    }
+    .down-banner{
+        margin: 0;
+        align-items: center;
+        display: flex;
+        
+    }
+    .down-img{
+        width: 456px;
+height: 477px;
+margin: 0 20px;
+    }
+    .down-but{
+        text-align: left;
+        width: 230px;
+        height: 56px;
+    }
+    .down-left-banner{
+        margin-top: 200px;
+           display: flex;
+           align-items: center;
+           margin-bottom: 100px;
+    }
+    .down-left-img{
+        width: 456px;
+        height: 477px;
+        margin: 0 20px;
+    }
+    .dib{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .ema{
+        margin-top: 120px;
+        background-color: #FFF4D6;
+        border-radius: 10px;
+        padding: 80px 80px 100px 40px; 
+        margin-left: 300px;
+
+ }
+    .email{
+        display: flex;
+    }
+    .subs{
+        width: 60px;
+        background: #FF5959;
+        color: #FFFFFF;
+        
     }
